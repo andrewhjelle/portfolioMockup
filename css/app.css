@@ -1,0 +1,91 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 1% auto;
+    color: #2d3c49;
+    border-radius: 8px;
+    font-family: "Verdana", sans-serif;
+    justify-content: center;
+    max-width: 85em;
+    
+}
+
+/*ELEMENTS*/
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 12%;
+    margin-left: 3%;
+}
+
+.logo > img {
+    width: 100%;    
+}
+
+.header_text {
+    width: 85.2%;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.header_text > div {
+    width: 100%;
+}
+
+h1, h2 {
+    width: 100%;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.5vmin;
+    color: #02b3e4;
+}
+
+h2 {
+    font-size: 2.0vmin;
+}
+
+hr {
+    border: solid 1.2px #7d97ad;
+}
+
+.hero {
+    max-height: 40vh;
+    max-width: 80em;
+    width: 100%;        
+}
+
+.featuredHeader {
+    font-size: 3.0vmin;
+    color: #7d97ad;
+    margin-left: 3%;
+}
+.featuredWork {
+    display: flex;
+}
+
+.work {
+    width: 31vw;
+    text-align: center;
+    border: solid #7d97ad;
+    margin-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: .3em .3em #7d97ad;
+    cursor: pointer;
+}
+
+.work img {
+    width: 100%;
+    height: 12em;
+}
+
+a {
+    font-size: 1.75vmin;
+}
